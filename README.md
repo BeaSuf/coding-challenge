@@ -40,19 +40,20 @@ Test by running **npm test** or **npm run watch** (jest/jest-watcher) <https://j
 > $ npm run watch
 
 Terminal output may look like following:
- PASS  tests/utils.spec.js
-  Cubic Weight
-    ✓ should return 6.75 when dimentions are length: 45cm, height: 20cm, width: 30cm (2 ms)
-  Average Cubic Weight
-    ✓ should return an average of 6.00 when there are 3 parcels with [6.00, 5.00, 7.00] cubic dimentions
-  Get Data
-    ✓ should return an object with "objects" property (51 ms)
 
-Test Suites: 1 passed, 1 total
-Tests:       3 passed, 3 total
-Snapshots:   0 total
-Time:        0.325 s, estimated 1 s
-Ran all test suites.
+ >PASS  tests/utils.spec.js
+ > Cubic Weight
+ >   ✓ should return 6.75 when dimentions are length: 45cm, height: 20cm, width: 30cm (2 ms)
+ > Average Cubic Weight
+ >   ✓ should return an average of 6.00 when there are 3 parcels with [6.00, 5.00, 7.00] cubic dimentions
+ > Get Data
+ >   ✓ should return an object with "objects" property (51 ms)
+
+>Test Suites: 1 passed, 1 total
+>Tests:       3 passed, 3 total
+>Snapshots:   0 total
+>Time:        0.325 s, estimated 1 s
+>Ran all test suites.
 
 ***
 
