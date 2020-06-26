@@ -17,3 +17,12 @@ describe("Average Cubic Weight", () => {
         expect(avgCubicWeight).toEqual(6.00);        
     });  
 });
+
+describe("Get Data", () => {
+    test('should return an object with "objects" property', async () => {
+
+        const url = 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com/api/products/1';
+
+        await expect(utils.getData(url)).resolves.toHaveProperty('objects');
+    });
+});
